@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>World Cup Score Board</title>
+  <link rel="stylesheet" type="text/css" href="worldcup.css">
+</head>
+<body>
+  <h1>World cup Score Board</h1>
+
+  <div id="teamNames">
+    <label for="battingTeam"></label>
+    <select id="battingTeam" name="Team 1" required >
+      <option value="Select">Select Batting Team</option>
+      <option value="India">India</option>
+      <option value="Australia">Australia</option>
+      <option value="Pakistan">Pakistan</option>
+      <option value="New Zealand">New Zealand</option>
+      <option value="England">England</option>
+      <option value="West Indies">West Indies</option>
+      <option value="Afghanistan">Afghanistan</option>
+      <option value="South Africa">South Africa</option>
+      <option value="Netherlands">Netherlands</option>
+      <option value="Bangladesh">Bangladesh</option>
+  </select>
+   
+    V/S 
+
+    <label for="bowlingTeam"></label>
+    <select id="bowlingTeam" name="Team 2" required >
+      <option value="Select">Select Bowling Team</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="New Zealand">New Zealand</option>
+        <option value="England">England</option>
+        <option value="West Indies">West Indies</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="South Africa">South Africa</option>
+        <option value="Netherlands">Netherlands</option>
+        <option value="Bangladesh">Bangladesh</option>
+    </select>
+    
+
+
+
+
+    
+    <button onclick="startMatch()">Start Match</button>
+    <button onclick="resetMatch()">Reset Match</button>
+   
+   
+<center> <div id="scoreBoard" class="scoreboard">
+
+</div></center>
+
+ 
+  
+  <script src="worldcup.js"></script>
+</body>
+</html>
